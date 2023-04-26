@@ -1,0 +1,73 @@
+d = {}
+
+dictionary
+
+
+d = {'key':'value','key1':'value1','key':123}
+
+d['key1']
+
+
+list = d['key1']
+
+d={'key':{'innerkey':[1,2,3]}}
+d['key']
+
+d['key']['innerkey']
+
+d['key']['innerkey'][1]
+
+
+
+tuple
+
+t =(1,2,3)
+
+t[0]
+
+
+
+"""#t[0]='new' ---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-19-3d8cb7a6b01a> in <cell line: 1>()
+----> 1 t[0]='new'
+
+TypeError: 'tuple' object does not support item assignment"""
+
+Set - collecction of unique
+
+set1 = {1,1,2,3,4,5,4,5,6}
+
+
+set1
+
+
+
+boolean
+
+1==1
+
+1==0
+
+'hi'=='hw'
+
+0<2
+
+0<2 and 0<3
+
+0<2 and 0>3
+
+0<2 or 0<3
+
+if 1<2:
+  print( 'yep')
+else:
+  print('Not yep')
+
+if 1>2:
+  print( 'yep')
+elif 1>0:
+  print('Yip')
+else:
+  print('Rip')
+
