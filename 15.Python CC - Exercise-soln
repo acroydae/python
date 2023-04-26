@@ -1,0 +1,26 @@
+planet='Earth'
+diameter=12742
+print("{one}:{two}".format(one=planet,two=diameter))
+
+gmail = 'example@gmail.com'
+gmail.split('@')[0]
+
+def findDog(str):
+  return 'dog' in str.lower()
+
+findDog('Dog')
+
+def countDog(str):
+  count = 0
+  for i in str.lower().split(' '):    
+    if(i == 'dog'):
+      count+=1
+  return count
+
+
+countDog('dog Dog dog Doggy')
+
+seq = ['sss','aaa','bbbb']
+list(filter(lambda word : word[0] == 's',seq ))
+
+'''  '''
