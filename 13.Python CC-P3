@@ -1,0 +1,52 @@
+seq = [1,2,3,4,5]
+
+lambda
+
+sq = lambda x : x ** 2
+
+sq(2)
+
+map(sq,seq)
+
+list(map(sq,seq))
+
+list(map(lambda x : x**2 ,  seq))
+
+list(filter(lambda x:x%2 == 0 , seq))
+
+s = "The case Is Sensitive"
+
+s.lower()
+
+s.islower()
+
+s.upper()
+
+s.isupper()
+
+s.split(' ')
+
+s.split(' ')[2]
+
+Key update if key name same, then update the new values
+
+d = {'key':'value' , 'key1':'value1','key2':'value2','key':'value3'}
+
+d.items()
+
+d.keys()
+
+d.items()
+
+'Is' in s
+
+
+x = [(1,2),(2,3),(3,4)]
+
+for i in x:
+  print(i)
+
+for (a,b) in x:
+  print(a)
+  print(b)
+
