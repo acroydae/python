@@ -1,0 +1,61 @@
+seq = [1,2,3,4,5]
+
+
+For
+
+for i in seq:
+  print(i)
+  print(seq)
+  print("End {}".format(i))
+
+While
+
+i = 0
+while i<5:
+  i+=1
+  print(i)
+  print("End {}".format(i))
+
+Range
+
+range(0,5)
+
+for i in range(0,5):
+  print(i)
+
+
+list(range(10))
+
+mylist = []
+
+for i in range(10):
+  mylist.append(i)
+
+print(mylist)
+
+[i ** 2 for i in range(10)]
+
+sq = [i ** 2 for i in range(10)]
+
+
+
+def myFunc(name = 'deafault name'):
+  print('hello ' + name)
+
+myFunc()
+
+myFunc
+
+def square(num):
+  return num ** 2
+
+square(3)
+
+def cube(num):
+  """"
+  Thiss is a cube
+  """
+  return num ** 2 *num
+
+cube(3)
+
