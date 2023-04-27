@@ -1,0 +1,46 @@
+import numpy as np
+
+
+arr = np.random.randint(1,100,10)
+
+arr
+
+arr[2]
+
+arr[0:5]
+
+arr[5:]
+
+arr[:-1]
+
+arr[-1]
+
+arrcop = arr.copy()
+
+arrcop
+
+arr = [[1,2,2],[2,2,2],[2,2,2]]
+
+arr =np.array(arr)
+
+arr
+
+arr[1][2]
+
+arr[0][0]
+
+arr[:2][1:]
+
+arr[:2,1:]
+
+arr[:2]
+
+arr < 2
+
+bool = arr < 2
+
+arr[bool]
+
+arr[arr < 2]
+
+''' '''  ''' '''
