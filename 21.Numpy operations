@@ -1,0 +1,28 @@
+
+
+Numpy operation
+
+import numpy as np
+
+arr = np.arange(0,11)
+
+arr
+
+arr+arr
+
+arr*arr
+
+arr+100
+
+arr/arr
+
+1/arr
+
+arr**5
+
+np.sqrt(10)
+
+np.sqrt(16)
+
+np.sin(arr)
+
