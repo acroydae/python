@@ -1,0 +1,13 @@
+pip install pandas
+
+build top of numpyg , analyse clean
+data handling
+perfomence high
+
+Series
+DataFrames
+Missing data
+Groupby
+Merge,join, cpncat
+Op
+Data in out
